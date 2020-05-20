@@ -1,0 +1,282 @@
+/*Import Google font family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&display=swap');
+
+/*Basic normalize CSS*/
+
+*{
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif; /* 1 */
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+	margin: 0;
+}
+
+article,
+figcaption,
+figure,
+footer,
+header,
+main,
+section,
+time {
+	display: block;
+}
+
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+button {
+	overflow: visible;
+}
+
+
+/* Main Style */
+html {
+    font-size: 62.5%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
+	font-size: 400;
+	color: #3a3a3a;
+}
+
+.header	{
+	background-color: #3a3a3a;
+	color: #fff;
+	text-align: center;
+	padding: 18px;
+	line-height: 0;
+}
+
+main {}
+
+footer {
+	background-color: #f0f0f0;
+	padding: 28px 0;
+	letter-spacing: .05rem;
+}
+
+.container {
+	max-width: 70.9rem;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	margin: 0 0 2rem 0;
+}
+
+h1 {
+	font-size:	2.4rem;
+	font-weight: 900;
+	line-height: 1.25;
+}
+
+h2 {
+	font-size:	1.8rem;
+	font-weight: 700;
+	line-height: 1.45;
+}
+
+h3 {
+	font-size:	2.25rem;
+	font-weight: 400;
+	line-height: 1.45;
+}
+
+p {
+	line-height: 1.65;
+	margin-bottom: 2.5rem;
+}
+
+img {
+	border: 0;
+}
+
+figure {
+	margin: 0;
+	background-color: #3a3a3a;
+	line-height: 0;
+}
+
+figcaption {
+	font-size: 1.4rem;
+	color: #fff;
+	text-align: left;
+	padding: 2.5rem 2rem;
+}
+
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
+
+.btn, .btn:active, .btn:visited {
+	font-size:	1.8rem;
+	font-weight: 700;
+	text-decoration: none;
+	background-color: #e6e6e6;
+	color: #282828;
+	display: block;
+	padding: 1.2rem;
+	text-align: center;
+	border-radius: 0.5rem;
+	width: 100%;
+	outline-color: none;
+}
+
+.btn:hover {
+	opacity: .9;
+}
+
+.btn:focus {
+	outline-color: none;
+}
+
+.btn-orange, .btn-orange:active, .btn-orange:visited {
+	background-color: #ff7800;
+	color: #fff;
+}
+
+
+.checked-list {
+	list-style: none;
+	margin: 0 0 4rem;
+	padding: 0;
+}
+
+.checked-list li {
+	margin-bottom: 1rem;
+	padding-left: 25px;
+	position: relative;
+}
+
+.checked-list li::before {
+	content: "";
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url(../images/check-icon.svg) no-repeat 0 0;
+	position: absolute;
+	left: 0;
+	top: 3px;
+}
+
+.author {
+	font-size:	1.4rem;
+	font-weight: 700;
+}
+
+.date {
+	font-size:	1.4rem;
+	font-weight: 400;
+	color: #ccc;
+}
+
+.add-block {
+	border: 1px solid #ccc;
+	color: #fff;
+	margin-bottom: 3rem;
+}
+
+.add-block .add-header {
+	line-height: 0;
+	color: #ccc;
+}
+
+.add-block .add-header h2{
+	font-weight: 400;
+	padding: 1.5rem 1rem;
+	margin-bottom: 0;
+	border-bottom: 1px solid  #ccc;
+}
+
+.add-block .add-body {
+	background-color: #3a3a3a;
+	padding: 2rem 1rem;
+}
+
+.add-block .add-body p {
+	margin-top: 0;
+}
+
+.form-header {
+	background-color: #3a3a3a;
+}
+
+.form-wrapper {
+	background-color: #676767;
+	color: #fff
+}
+
+/*Helper Class*/
+.px-1 {
+	padding-left: 1rem;
+	padding-right: 1rem
+}
+
+.py-1 {
+	padding-top: 1rem;
+	padding-bottom: 1rem
+}
+
+.px-2 {
+	padding-left: 2rem;
+	padding-right: 2rem
+}
+
+.py-2 {
+	padding-top: 2rem;
+	padding-bottom: 2rem
+}
+
+.my-2 {
+	margin-top: 2rem;
+	margin-bottom: 2rem
+}
+
+.mb-2 {
+	margin-bottom: 2rem;
+}
+
+.mb-3 {
+	margin-bottom: 3rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.sub-heading {
+	font-size:	1.6rem;
+	font-weight: 400;
+	line-height: 1.45;
+	margin: 0 0 2rem 0;
+}
+
+.sub-heading::after {
+	content: "";
+	display: block;
+	width: 108px;
+	height: 5px;
+	background-color: #ff7800;
+	margin: 30px auto;
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+#date2 {
+	display: none;
+}
+
