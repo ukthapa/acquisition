@@ -136,10 +136,18 @@ figcaption {
 	width: 100%;
 	outline: none;
 	cursor: pointer;
+	opacity: .9;
+	transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
 }
 
 .btn:hover {
-	opacity: .9;
+	opacity: 1;
+	text-shadow: 1px 1px 3px #7e7e7e;
+	box-shadow: 0 2px 3px #3a3a3a;
 }
 
 .btn:focus {
@@ -309,6 +317,10 @@ figcaption {
 	margin: 30px auto;
 }
 
+.add-header h2 {
+	text-align: center;
+}
+
 @media only screen and (min-width: 600px) {
 
 	h1 {
@@ -357,6 +369,10 @@ figcaption {
 
 	.text-bold {
 		font-weight: 400;
+	}
+
+	.add-header h2 {
+		text-align: right;
 	}
 
 	.hero-block .text-center {
